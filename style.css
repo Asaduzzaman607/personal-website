@@ -1,10 +1,10 @@
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding: 20px 40px;
 }
 .text-highlight{
-    color: crimson;
+    color:#EC4C7A;
     font-size: 50px;
 
 }
@@ -17,7 +17,7 @@ h2{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg, rgb(238, 56, 111),rgb(224, 48, 77));
+    background-image: linear-gradient(45deg, rgb(238, 56, 111),rgb(221, 76, 100));
     color: white;
     border-radius: 5px;
     padding: 10px 40px;
@@ -29,13 +29,12 @@ h2{
    box-shadow:0px 0px 10px rgb(245, 10, 10);
 }
 p{
-    text-align: justify;
+    
     font-size: 20px;
 }
 section{
     overflow: hidden;
-    height: 500px;
-    padding-bottom: 150px;
+    padding: 120px 0;
 }
 .half-width {
     width: 40%;
@@ -53,5 +52,101 @@ img{
 }
 h2{
     font-size: 40px;
-    font-weight: 500;
+    font-weight: bold;
+}
+
+/* biography area */
+
+.biography-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* latest works area */
+
+.work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.latest-work{
+    float: left;
+    width: 30%;
+  
+}
+#works{
+    text-align: center;
+    font-weight: bold;
+
+}
+.latest-work:hover{
+    width: 40%;
+    height: 40%;
+    
+}
+
+/* Footer-section */
+.footer-section{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    text-align: center;
+}
+#position{
+    text-align: center;
+    color: dimgrey;
+}
+#message{
+    text-align: center;
+}
+#comment{
+    width: 50%;
+    font-weight: bold;
+    margin: auto;
+    padding-bottom: 40px;
+    
+}
+/* contact-box */
+
+.contact-box{
+    background-image: linear-gradient(45deg, crimson, #EC4C7E);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 650px;
+    margin:  auto;
+    padding: 20px 20px;
+}
+
+/* social media */
+
+.social-media {
+    margin: 30px;
+    padding-bottom: 30px;
+}
+.social-media i{
+    margin-top: 10px;
+}
+
+.social-media a {
+    display: inline-block;
+    color:black;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    font-size: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.social-media a:hover {
+    background: rgb(9, 100, 219);
+    color: white;
+}
+
+/* footer section */
+footer p{
+    text-align: center;
 }
