@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    padding: 20px 40px;
 }
 
 /* Header section  */
@@ -44,6 +43,7 @@ section{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    padding-top: 2%;
 }
 .header-area{
     background-image: url(images/header-bg.png);
@@ -74,21 +74,25 @@ h2{
     background-repeat: no-repeat;
     background-position: cover;
 }
+.works{
+    padding: 0 18%;
+
+}
 
 .latest-work{
     float: left;
-    width: 30%;
+    width: 27%;
+    margin: 15px;
     position: relative;
-  
 }
-#works{
+#latest{
     text-align: center;
     font-weight: bold;
 
 }
 .latest-work:hover{
-    width: 40%;
-    height: 40%;
+    width: 35%;
+    height: 35%;
     
 }
 
@@ -123,6 +127,10 @@ h2{
     padding: 20px 20px;
     text-align: center;
     text-decoration: none;
+}
+.contact-box:hover{
+    box-shadow:0px 0px 10px rgb(245, 10, 10);
+
 }
 
 .social-media{
